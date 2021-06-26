@@ -1,0 +1,69 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "doctor kit",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "IOtest",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "who are you",
+                        "tell me {status}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "STATUS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "your name"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "time"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a joke"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "joke"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
