@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "doctor kit",
+            "invocationName": "iron man",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
